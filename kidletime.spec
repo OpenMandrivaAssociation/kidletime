@@ -14,6 +14,7 @@ Group: System/Libraries
 BuildRequires: cmake
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5X11Extras)
+BuildRequires: pkgconfig(Qt5DBus)
 BuildRequires: qmake5
 BuildRequires: extra-cmake-modules5
 
