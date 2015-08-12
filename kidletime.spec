@@ -61,8 +61,10 @@ inactivity.
 %ninja_install -C build
 
 %files -n %{libname}
+%dir %{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms
 %{_libdir}/*.so.%{major}
 %{_libdir}/*.so.%{version}
+%{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeXcbPlugin0.so
 
 %files -n %{devname}
 %{_includedir}/*
