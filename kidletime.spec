@@ -16,6 +16,7 @@ BuildRequires: cmake(ECM)
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5X11Extras)
 BuildRequires: pkgconfig(Qt5DBus)
+BuildRequires: pkgconfig(xscrnsaver)
 
 %description
 KIdleTime provides notifications of device's idle time.
@@ -65,7 +66,7 @@ inactivity.
 %{_libdir}/*.so.%{major}
 %{_libdir}/*.so.%{version}
 %{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeXcbPlugin0.so
-/usr/lib64/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeXcbPlugin1.so
+%{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeXcbPlugin1.so
 
 %files -n %{devname}
 %{_includedir}/*
