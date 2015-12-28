@@ -16,7 +16,9 @@ BuildRequires: cmake(ECM)
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5X11Extras)
 BuildRequires: pkgconfig(Qt5DBus)
+BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(xscrnsaver)
+BuildRequires: pkgconfig(xcb-sync)
 
 %description
 KIdleTime provides notifications of device's idle time.
