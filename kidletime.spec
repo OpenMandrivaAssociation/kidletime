@@ -19,6 +19,8 @@ BuildRequires: pkgconfig(Qt5DBus)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(xscrnsaver)
 BuildRequires: pkgconfig(xcb-sync)
+# For QCH docs
+BuildRequires: doxygen
 
 %description
 KIdleTime provides notifications of device's idle time.
