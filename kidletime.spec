@@ -18,6 +18,7 @@ BuildRequires: pkgconfig(Qt5DBus)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: cmake(Qt5WaylandClient)
 BuildRequires: pkgconfig(wayland-client)
+BuildRequires: cmake(PlasmaWaylandProtocols)
 BuildRequires: pkgconfig(xscrnsaver)
 BuildRequires: pkgconfig(xcb-sync)
 # For QCH docs
