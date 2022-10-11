@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5X11Extras)
 BuildRequires: pkgconfig(Qt5DBus)
 BuildRequires: pkgconfig(Qt5Widgets)
+BuildRequires: cmake(Qt5WaylandClient)
 BuildRequires: pkgconfig(xscrnsaver)
 BuildRequires: pkgconfig(xcb-sync)
 # For QCH docs
