@@ -21,6 +21,7 @@ BuildRequires: pkgconfig(wayland-client)
 BuildRequires: cmake(PlasmaWaylandProtocols)
 BuildRequires: pkgconfig(xscrnsaver)
 BuildRequires: pkgconfig(xcb-sync)
+BuildRequires: pkgconfig(wayland-protocols)
 # For QCH docs
 BuildRequires: doxygen
 BuildRequires: qt5-assistant
